@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  
+  
+}
+.button-1{
+  background-color: hsl(0, 0%, 95%);
+  color:  hsl(31, 77%, 52%);
+}
+.button-2{
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+
+}
+button-3{
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+
+}
+
+button{
+  padding: 8px;
+  border-radius: 15px;
+  margin-left: 25px;
+  margin-top: 20px;
+  border:none;
+}
+.imagez,.para,.header-1{
+  padding-top: 25px;
+  padding-left: 25px;
+  
+
+}
+
+.total-cards{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  
+
+}
+.card-1{
+  background-color: hsl(31, 77%, 52%);
+}
+.card-2{
+  background-color: hsl(184, 100%, 22%);
+}
+.card-3{
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 480px) {
+  .total-cards{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+    
+  }
+}

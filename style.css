@@ -1,4 +1,55 @@
-html, body {
-  height: 100%;
-  width: 100%;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.default {background-color: #032859;}
+.default:hover {background: #ddd;}
+
+
+
+.big default {background-color: #5C4099;}
+.big default:hover {background: #ddd;}
+
+
+
+.color1 {
+  background-color: #F29191;
+}
+
+.color1:hover {
+  background-color:  #5C4099;
+  color: white;
+}
+
+.color2{
+  background-color: #F2CA99;
+  
+}
+
+.color2:hover {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  
 }
